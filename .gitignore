@@ -4,6 +4,12 @@
 Temp/
 Library/
 
+*.sln
+*.csproj
+*.sln
+*.userprefs
+*.unityproj
+*.DS_Store
 # ===================================== #
 # Visual Studio / MonoDevelop generated #
 # ===================================== #

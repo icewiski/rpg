@@ -1,0 +1,454 @@
+fileFormatVersion: 2
+guid: b6783fc57924d134a85b18bfe977606d
+timeCreated: 1468888811
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Box002
+    100004: Object019
+    100006: Object026
+    100008: Object027
+    100010: Object028
+    100012: Object029
+    100014: Object030
+    100016: Object031
+    100018: Object032
+    100020: Object033
+    100022: Object034
+    100024: Object035
+    100026: Object036
+    100028: Object038
+    100030: Object039
+    100032: Object040
+    100034: Object041
+    100036: Object042
+    100038: Object043
+    100040: Object044
+    100042: Object045
+    100044: Object046
+    100046: Object047
+    100048: Object048
+    100050: Object049
+    100052: Object050
+    100054: Object051
+    100056: Object052
+    100058: stand
+    100060: B_MBarracksA_SO
+    100062: B_MBarracksA_SO 1
+    100064: B_MBarracksA_SO 10
+    100066: B_MBarracksA_SO 11
+    100068: B_MBarracksA_SO 12
+    100070: B_MBarracksA_SO 13
+    100072: B_MBarracksA_SO 14
+    100074: B_MBarracksA_SO 15
+    100076: B_MBarracksA_SO 16
+    100078: B_MBarracksA_SO 17
+    100080: B_MBarracksA_SO 18
+    100082: B_MBarracksA_SO 19
+    100084: B_MBarracksA_SO 2
+    100086: B_MBarracksA_SO 20
+    100088: B_MBarracksA_SO 21
+    100090: B_MBarracksA_SO 22
+    100092: B_MBarracksA_SO 23
+    100094: B_MBarracksA_SO 24
+    100096: B_MBarracksA_SO 25
+    100098: B_MBarracksA_SO 26
+    100100: B_MBarracksA_SO 27
+    100102: B_MBarracksA_SO 3
+    100104: B_MBarracksA_SO 4
+    100106: B_MBarracksA_SO 5
+    100108: B_MBarracksA_SO 6
+    100110: B_MBarracksA_SO 7
+    100112: B_MBarracksA_SO 8
+    100114: B_MBarracksA_SO 9
+    100116: B_MBarracksB
+    100118: nub
+    400000: //RootNode
+    400002: Box002
+    400004: Object019
+    400006: Object026
+    400008: Object027
+    400010: Object028
+    400012: Object029
+    400014: Object030
+    400016: Object031
+    400018: Object032
+    400020: Object033
+    400022: Object034
+    400024: Object035
+    400026: Object036
+    400028: Object038
+    400030: Object039
+    400032: Object040
+    400034: Object041
+    400036: Object042
+    400038: Object043
+    400040: Object044
+    400042: Object045
+    400044: Object046
+    400046: Object047
+    400048: Object048
+    400050: Object049
+    400052: Object050
+    400054: Object051
+    400056: Object052
+    400058: stand
+    400060: B_MBarracksA_SO
+    400062: B_MBarracksA_SO 1
+    400064: B_MBarracksA_SO 10
+    400066: B_MBarracksA_SO 11
+    400068: B_MBarracksA_SO 12
+    400070: B_MBarracksA_SO 13
+    400072: B_MBarracksA_SO 14
+    400074: B_MBarracksA_SO 15
+    400076: B_MBarracksA_SO 16
+    400078: B_MBarracksA_SO 17
+    400080: B_MBarracksA_SO 18
+    400082: B_MBarracksA_SO 19
+    400084: B_MBarracksA_SO 2
+    400086: B_MBarracksA_SO 20
+    400088: B_MBarracksA_SO 21
+    400090: B_MBarracksA_SO 22
+    400092: B_MBarracksA_SO 23
+    400094: B_MBarracksA_SO 24
+    400096: B_MBarracksA_SO 25
+    400098: B_MBarracksA_SO 26
+    400100: B_MBarracksA_SO 27
+    400102: B_MBarracksA_SO 3
+    400104: B_MBarracksA_SO 4
+    400106: B_MBarracksA_SO 5
+    400108: B_MBarracksA_SO 6
+    400110: B_MBarracksA_SO 7
+    400112: B_MBarracksA_SO 8
+    400114: B_MBarracksA_SO 9
+    400116: B_MBarracksB
+    400118: nub
+    2300000: Box002
+    2300002: Object026
+    2300004: Object027
+    2300006: Object028
+    2300008: Object029
+    2300010: Object030
+    2300012: Object031
+    2300014: Object032
+    2300016: Object033
+    2300018: Object034
+    2300020: Object035
+    2300022: Object036
+    2300024: Object038
+    2300026: Object039
+    2300028: Object040
+    2300030: Object041
+    2300032: Object042
+    2300034: Object043
+    2300036: Object044
+    2300038: Object045
+    2300040: Object046
+    2300042: Object047
+    2300044: Object048
+    2300046: Object049
+    2300048: Object050
+    2300050: Object051
+    2300052: Object052
+    2300054: stand
+    2300056: B_MBarracksA_SO
+    2300058: B_MBarracksA_SO 1
+    2300060: B_MBarracksA_SO 10
+    2300062: B_MBarracksA_SO 11
+    2300064: B_MBarracksA_SO 12
+    2300066: B_MBarracksA_SO 13
+    2300068: B_MBarracksA_SO 14
+    2300070: B_MBarracksA_SO 15
+    2300072: B_MBarracksA_SO 16
+    2300074: B_MBarracksA_SO 17
+    2300076: B_MBarracksA_SO 18
+    2300078: B_MBarracksA_SO 19
+    2300080: B_MBarracksA_SO 2
+    2300082: B_MBarracksA_SO 20
+    2300084: B_MBarracksA_SO 21
+    2300086: B_MBarracksA_SO 22
+    2300088: B_MBarracksA_SO 23
+    2300090: B_MBarracksA_SO 24
+    2300092: B_MBarracksA_SO 25
+    2300094: B_MBarracksA_SO 26
+    2300096: B_MBarracksA_SO 27
+    2300098: B_MBarracksA_SO 3
+    2300100: B_MBarracksA_SO 4
+    2300102: B_MBarracksA_SO 5
+    2300104: B_MBarracksA_SO 6
+    2300106: B_MBarracksA_SO 7
+    2300108: B_MBarracksA_SO 8
+    2300110: B_MBarracksA_SO 9
+    2300112: B_MBarracksB
+    3300000: Box002
+    3300002: Object026
+    3300004: Object027
+    3300006: Object028
+    3300008: Object029
+    3300010: Object030
+    3300012: Object031
+    3300014: Object032
+    3300016: Object033
+    3300018: Object034
+    3300020: Object035
+    3300022: Object036
+    3300024: Object038
+    3300026: Object039
+    3300028: Object040
+    3300030: Object041
+    3300032: Object042
+    3300034: Object043
+    3300036: Object044
+    3300038: Object045
+    3300040: Object046
+    3300042: Object047
+    3300044: Object048
+    3300046: Object049
+    3300048: Object050
+    3300050: Object051
+    3300052: Object052
+    3300054: stand
+    3300056: B_MBarracksA_SO
+    3300058: B_MBarracksA_SO 1
+    3300060: B_MBarracksA_SO 10
+    3300062: B_MBarracksA_SO 11
+    3300064: B_MBarracksA_SO 12
+    3300066: B_MBarracksA_SO 13
+    3300068: B_MBarracksA_SO 14
+    3300070: B_MBarracksA_SO 15
+    3300072: B_MBarracksA_SO 16
+    3300074: B_MBarracksA_SO 17
+    3300076: B_MBarracksA_SO 18
+    3300078: B_MBarracksA_SO 19
+    3300080: B_MBarracksA_SO 2
+    3300082: B_MBarracksA_SO 20
+    3300084: B_MBarracksA_SO 21
+    3300086: B_MBarracksA_SO 22
+    3300088: B_MBarracksA_SO 23
+    3300090: B_MBarracksA_SO 24
+    3300092: B_MBarracksA_SO 25
+    3300094: B_MBarracksA_SO 26
+    3300096: B_MBarracksA_SO 27
+    3300098: B_MBarracksA_SO 3
+    3300100: B_MBarracksA_SO 4
+    3300102: B_MBarracksA_SO 5
+    3300104: B_MBarracksA_SO 6
+    3300106: B_MBarracksA_SO 7
+    3300108: B_MBarracksA_SO 8
+    3300110: B_MBarracksA_SO 9
+    3300112: B_MBarracksB
+    4300000: stand
+    4300002: Box002
+    4300004: Object035
+    4300006: Object036
+    4300008: Object027
+    4300010: Object028
+    4300012: Object032
+    4300014: Object033
+    4300016: Object031
+    4300018: Object030
+    4300020: Object029
+    4300022: Object034
+    4300024: Object042
+    4300026: Object043
+    4300028: Object044
+    4300030: Object045
+    4300032: Object046
+    4300034: Object047
+    4300036: Object048
+    4300038: Object049
+    4300040: Object050
+    4300042: Object026
+    4300044: Object038
+    4300046: Object039
+    4300048: Object052
+    4300050: Object040
+    4300052: Object041
+    4300054: Object051
+    4300056: B_MBarracksB
+    4300058: B_MBarracksA_SO
+    4300060: B_MBarracksA_SO
+    4300062: B_MBarracksA_SO
+    4300064: B_MBarracksA_SO
+    4300066: B_MBarracksA_SO
+    4300068: B_MBarracksA_SO
+    4300070: B_MBarracksA_SO
+    4300072: B_MBarracksA_SO
+    4300074: B_MBarracksA_SO
+    4300076: B_MBarracksA_SO
+    4300078: B_MBarracksA_SO
+    4300080: B_MBarracksA_SO
+    4300082: B_MBarracksA_SO
+    4300084: B_MBarracksA_SO
+    4300086: B_MBarracksA_SO
+    4300088: B_MBarracksA_SO
+    4300090: B_MBarracksA_SO
+    4300092: B_MBarracksA_SO
+    4300094: B_MBarracksA_SO
+    4300096: B_MBarracksA_SO
+    4300098: B_MBarracksA_SO
+    4300100: B_MBarracksA_SO
+    4300102: B_MBarracksA_SO
+    4300104: B_MBarracksA_SO
+    4300106: B_MBarracksA_SO
+    4300108: B_MBarracksA_SO
+    4300110: B_MBarracksA_SO
+    4300112: B_MBarracksA_SO
+    7400000: death
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: death
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: B_MBarracksA_SO
+        weight: 1
+      - path: B_MBarracksA_SO/B_MBarracksA_SO 1
+        weight: 1
+      - path: B_MBarracksA_SO/B_MBarracksA_SO 2
+        weight: 1
+      - path: B_MBarracksA_SO/B_MBarracksA_SO 3
+        weight: 1
+      - path: B_MBarracksA_SO/B_MBarracksA_SO 4
+        weight: 1
+      - path: B_MBarracksA_SO/B_MBarracksA_SO 5
+        weight: 1
+      - path: B_MBarracksA_SO/B_MBarracksA_SO 6
+        weight: 1
+      - path: B_MBarracksA_SO/B_MBarracksA_SO 7
+        weight: 1
+      - path: B_MBarracksA_SO/B_MBarracksA_SO 8
+        weight: 1
+      - path: B_MBarracksA_SO/B_MBarracksA_SO 9
+        weight: 1
+      - path: B_MBarracksA_SO/B_MBarracksA_SO 10
+        weight: 1
+      - path: B_MBarracksA_SO/B_MBarracksA_SO 11
+        weight: 1
+      - path: B_MBarracksA_SO/B_MBarracksA_SO 12
+        weight: 1
+      - path: B_MBarracksA_SO/B_MBarracksA_SO 13
+        weight: 1
+      - path: B_MBarracksA_SO/B_MBarracksA_SO 14
+        weight: 1
+      - path: B_MBarracksA_SO/B_MBarracksA_SO 15
+        weight: 1
+      - path: B_MBarracksA_SO/B_MBarracksA_SO 16
+        weight: 1
+      - path: B_MBarracksA_SO/B_MBarracksA_SO 17
+        weight: 1
+      - path: B_MBarracksA_SO/B_MBarracksA_SO 18
+        weight: 1
+      - path: B_MBarracksA_SO/B_MBarracksA_SO 19
+        weight: 1
+      - path: B_MBarracksA_SO/B_MBarracksA_SO 20
+        weight: 1
+      - path: B_MBarracksA_SO/B_MBarracksA_SO 21
+        weight: 1
+      - path: B_MBarracksA_SO/B_MBarracksA_SO 22
+        weight: 1
+      - path: B_MBarracksA_SO/B_MBarracksA_SO 23
+        weight: 1
+      - path: B_MBarracksA_SO/B_MBarracksA_SO 24
+        weight: 1
+      - path: B_MBarracksA_SO/B_MBarracksA_SO 25
+        weight: 1
+      - path: B_MBarracksA_SO/B_MBarracksA_SO 26
+        weight: 1
+      - path: B_MBarracksA_SO/B_MBarracksA_SO 27
+        weight: 1
+      - path: B_MBarracksA_SO/nub
+        weight: 1
+      - path: B_MBarracksB
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

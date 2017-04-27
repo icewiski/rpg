@@ -1,0 +1,600 @@
+fileFormatVersion: 2
+guid: 3677e4c549e1148ed870972bb5489646
+timeCreated: 1467194692
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Footsteps
+    100002: Head
+    100004: HeadNub
+    100006: LALeg1
+    100008: LALeg2
+    100010: LALeg3
+    100012: LALeg4
+    100014: LALegCon
+    100016: LALegNub
+    100018: LBLegCon
+    100020: LCLeg1
+    100022: LCLeg2
+    100024: LCLeg3
+    100026: LCLeg4
+    100028: LCLegNub
+    100030: LCLegNub 1
+    100032: NeckNub
+    100034: Pelvis
+    100036: RALeg1
+    100038: RALeg2
+    100040: RALeg3
+    100042: RALeg4
+    100044: RALegCon
+    100046: RALegNub
+    100048: RBLeg1
+    100050: RBLeg1 1
+    100052: RBLeg2
+    100054: RBLeg2 1
+    100056: RBLeg3
+    100058: RBLeg3 1
+    100060: RBLeg4
+    100062: RBLeg4 1
+    100064: RBLegCon
+    100066: RCLeg1
+    100068: RCLeg2
+    100070: RCLeg3
+    100072: RCLeg4
+    100074: Spine
+    100076: Transform
+    100078: //RootNode
+    100080: unwrap
+    400000: Footsteps
+    400002: Head
+    400004: HeadNub
+    400006: LALeg1
+    400008: LALeg2
+    400010: LALeg3
+    400012: LALeg4
+    400014: LALegCon
+    400016: LALegNub
+    400018: LBLegCon
+    400020: LCLeg1
+    400022: LCLeg2
+    400024: LCLeg3
+    400026: LCLeg4
+    400028: LCLegNub
+    400030: LCLegNub 1
+    400032: NeckNub
+    400034: Pelvis
+    400036: RALeg1
+    400038: RALeg2
+    400040: RALeg3
+    400042: RALeg4
+    400044: RALegCon
+    400046: RALegNub
+    400048: RBLeg1
+    400050: RBLeg1 1
+    400052: RBLeg2
+    400054: RBLeg2 1
+    400056: RBLeg3
+    400058: RBLeg3 1
+    400060: RBLeg4
+    400062: RBLeg4 1
+    400064: RBLegCon
+    400066: RCLeg1
+    400068: RCLeg2
+    400070: RCLeg3
+    400072: RCLeg4
+    400074: Spine
+    400076: Transform
+    400078: //RootNode
+    400080: unwrap
+    4300000: unwrap
+    7400000: walk
+    7400002: idle
+    7400004: attack
+    7400006: death
+    9500000: //RootNode
+    13700000: unwrap
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: walk
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 27
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Transform
+        weight: 1
+      - path: Transform/Footsteps
+        weight: 1
+      - path: Transform/LBLegCon
+        weight: 1
+      - path: Transform/LBLegCon/RBLeg1
+        weight: 1
+      - path: Transform/LBLegCon/RBLeg1/RBLeg2
+        weight: 1
+      - path: Transform/LBLegCon/RBLeg1/RBLeg2/RBLeg3
+        weight: 1
+      - path: Transform/LBLegCon/RBLeg1/RBLeg2/RBLeg3/RBLeg4
+        weight: 1
+      - path: Transform/Pelvis
+        weight: 1
+      - path: Transform/Pelvis/Spine
+        weight: 1
+      - path: Transform/Pelvis/Spine/LCLeg1
+        weight: 1
+      - path: Transform/Pelvis/Spine/LCLeg1/LCLeg2
+        weight: 1
+      - path: Transform/Pelvis/Spine/LCLeg1/LCLeg2/LCLeg3
+        weight: 1
+      - path: Transform/Pelvis/Spine/LCLeg1/LCLeg2/LCLeg3/LCLeg4
+        weight: 1
+      - path: Transform/Pelvis/Spine/LCLeg1/LCLeg2/LCLeg3/LCLeg4/LCLegNub
+        weight: 1
+      - path: Transform/Pelvis/Spine/NeckNub
+        weight: 1
+      - path: Transform/Pelvis/Spine/NeckNub/Head
+        weight: 1
+      - path: Transform/Pelvis/Spine/NeckNub/Head/HeadNub
+        weight: 1
+      - path: Transform/Pelvis/Spine/NeckNub/LALegCon
+        weight: 1
+      - path: Transform/Pelvis/Spine/NeckNub/LALegCon/LALeg1
+        weight: 1
+      - path: Transform/Pelvis/Spine/NeckNub/LALegCon/LALeg1/LALeg2
+        weight: 1
+      - path: Transform/Pelvis/Spine/NeckNub/LALegCon/LALeg1/LALeg2/LALeg3
+        weight: 1
+      - path: Transform/Pelvis/Spine/NeckNub/LALegCon/LALeg1/LALeg2/LALeg3/LALeg4
+        weight: 1
+      - path: Transform/Pelvis/Spine/NeckNub/LALegCon/LALeg1/LALeg2/LALeg3/LALeg4/LALegNub
+        weight: 1
+      - path: Transform/Pelvis/Spine/NeckNub/RALegCon
+        weight: 1
+      - path: Transform/Pelvis/Spine/NeckNub/RALegCon/RALeg1
+        weight: 1
+      - path: Transform/Pelvis/Spine/NeckNub/RALegCon/RALeg1/RALeg2
+        weight: 1
+      - path: Transform/Pelvis/Spine/NeckNub/RALegCon/RALeg1/RALeg2/RALeg3
+        weight: 1
+      - path: Transform/Pelvis/Spine/NeckNub/RALegCon/RALeg1/RALeg2/RALeg3/RALeg4
+        weight: 1
+      - path: Transform/Pelvis/Spine/NeckNub/RALegCon/RALeg1/RALeg2/RALeg3/RALeg4/RALegNub
+        weight: 1
+      - path: Transform/Pelvis/Spine/RCLeg1
+        weight: 1
+      - path: Transform/Pelvis/Spine/RCLeg1/RCLeg2
+        weight: 1
+      - path: Transform/Pelvis/Spine/RCLeg1/RCLeg2/RCLeg3
+        weight: 1
+      - path: Transform/Pelvis/Spine/RCLeg1/RCLeg2/RCLeg3/RCLeg4
+        weight: 1
+      - path: Transform/Pelvis/Spine/RCLeg1/RCLeg2/RCLeg3/RCLeg4/LCLegNub 1
+        weight: 1
+      - path: Transform/RBLegCon
+        weight: 1
+      - path: Transform/RBLegCon/RBLeg1 1
+        weight: 1
+      - path: Transform/RBLegCon/RBLeg1 1/RBLeg2 1
+        weight: 1
+      - path: Transform/RBLegCon/RBLeg1 1/RBLeg2 1/RBLeg3 1
+        weight: 1
+      - path: Transform/RBLegCon/RBLeg1 1/RBLeg2 1/RBLeg3 1/RBLeg4 1
+        weight: 1
+      - path: unwrap
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 29
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Transform
+        weight: 1
+      - path: Transform/Footsteps
+        weight: 1
+      - path: Transform/LBLegCon
+        weight: 1
+      - path: Transform/LBLegCon/RBLeg1
+        weight: 1
+      - path: Transform/LBLegCon/RBLeg1/RBLeg2
+        weight: 1
+      - path: Transform/LBLegCon/RBLeg1/RBLeg2/RBLeg3
+        weight: 1
+      - path: Transform/LBLegCon/RBLeg1/RBLeg2/RBLeg3/RBLeg4
+        weight: 1
+      - path: Transform/Pelvis
+        weight: 1
+      - path: Transform/Pelvis/Spine
+        weight: 1
+      - path: Transform/Pelvis/Spine/LCLeg1
+        weight: 1
+      - path: Transform/Pelvis/Spine/LCLeg1/LCLeg2
+        weight: 1
+      - path: Transform/Pelvis/Spine/LCLeg1/LCLeg2/LCLeg3
+        weight: 1
+      - path: Transform/Pelvis/Spine/LCLeg1/LCLeg2/LCLeg3/LCLeg4
+        weight: 1
+      - path: Transform/Pelvis/Spine/LCLeg1/LCLeg2/LCLeg3/LCLeg4/LCLegNub
+        weight: 1
+      - path: Transform/Pelvis/Spine/NeckNub
+        weight: 1
+      - path: Transform/Pelvis/Spine/NeckNub/Head
+        weight: 1
+      - path: Transform/Pelvis/Spine/NeckNub/Head/HeadNub
+        weight: 1
+      - path: Transform/Pelvis/Spine/NeckNub/LALegCon
+        weight: 1
+      - path: Transform/Pelvis/Spine/NeckNub/LALegCon/LALeg1
+        weight: 1
+      - path: Transform/Pelvis/Spine/NeckNub/LALegCon/LALeg1/LALeg2
+        weight: 1
+      - path: Transform/Pelvis/Spine/NeckNub/LALegCon/LALeg1/LALeg2/LALeg3
+        weight: 1
+      - path: Transform/Pelvis/Spine/NeckNub/LALegCon/LALeg1/LALeg2/LALeg3/LALeg4
+        weight: 1
+      - path: Transform/Pelvis/Spine/NeckNub/LALegCon/LALeg1/LALeg2/LALeg3/LALeg4/LALegNub
+        weight: 1
+      - path: Transform/Pelvis/Spine/NeckNub/RALegCon
+        weight: 1
+      - path: Transform/Pelvis/Spine/NeckNub/RALegCon/RALeg1
+        weight: 1
+      - path: Transform/Pelvis/Spine/NeckNub/RALegCon/RALeg1/RALeg2
+        weight: 1
+      - path: Transform/Pelvis/Spine/NeckNub/RALegCon/RALeg1/RALeg2/RALeg3
+        weight: 1
+      - path: Transform/Pelvis/Spine/NeckNub/RALegCon/RALeg1/RALeg2/RALeg3/RALeg4
+        weight: 1
+      - path: Transform/Pelvis/Spine/NeckNub/RALegCon/RALeg1/RALeg2/RALeg3/RALeg4/RALegNub
+        weight: 1
+      - path: Transform/Pelvis/Spine/RCLeg1
+        weight: 1
+      - path: Transform/Pelvis/Spine/RCLeg1/RCLeg2
+        weight: 1
+      - path: Transform/Pelvis/Spine/RCLeg1/RCLeg2/RCLeg3
+        weight: 1
+      - path: Transform/Pelvis/Spine/RCLeg1/RCLeg2/RCLeg3/RCLeg4
+        weight: 1
+      - path: Transform/Pelvis/Spine/RCLeg1/RCLeg2/RCLeg3/RCLeg4/LCLegNub 1
+        weight: 1
+      - path: Transform/RBLegCon
+        weight: 1
+      - path: Transform/RBLegCon/RBLeg1 1
+        weight: 1
+      - path: Transform/RBLegCon/RBLeg1 1/RBLeg2 1
+        weight: 1
+      - path: Transform/RBLegCon/RBLeg1 1/RBLeg2 1/RBLeg3 1
+        weight: 1
+      - path: Transform/RBLegCon/RBLeg1 1/RBLeg2 1/RBLeg3 1/RBLeg4 1
+        weight: 1
+      - path: unwrap
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: attack
+      takeName: Take 001
+      firstFrame: 92
+      lastFrame: 127
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Transform
+        weight: 1
+      - path: Transform/Footsteps
+        weight: 1
+      - path: Transform/LBLegCon
+        weight: 1
+      - path: Transform/LBLegCon/RBLeg1
+        weight: 1
+      - path: Transform/LBLegCon/RBLeg1/RBLeg2
+        weight: 1
+      - path: Transform/LBLegCon/RBLeg1/RBLeg2/RBLeg3
+        weight: 1
+      - path: Transform/LBLegCon/RBLeg1/RBLeg2/RBLeg3/RBLeg4
+        weight: 1
+      - path: Transform/Pelvis
+        weight: 1
+      - path: Transform/Pelvis/Spine
+        weight: 1
+      - path: Transform/Pelvis/Spine/LCLeg1
+        weight: 1
+      - path: Transform/Pelvis/Spine/LCLeg1/LCLeg2
+        weight: 1
+      - path: Transform/Pelvis/Spine/LCLeg1/LCLeg2/LCLeg3
+        weight: 1
+      - path: Transform/Pelvis/Spine/LCLeg1/LCLeg2/LCLeg3/LCLeg4
+        weight: 1
+      - path: Transform/Pelvis/Spine/LCLeg1/LCLeg2/LCLeg3/LCLeg4/LCLegNub
+        weight: 1
+      - path: Transform/Pelvis/Spine/NeckNub
+        weight: 1
+      - path: Transform/Pelvis/Spine/NeckNub/Head
+        weight: 1
+      - path: Transform/Pelvis/Spine/NeckNub/Head/HeadNub
+        weight: 1
+      - path: Transform/Pelvis/Spine/NeckNub/LALegCon
+        weight: 1
+      - path: Transform/Pelvis/Spine/NeckNub/LALegCon/LALeg1
+        weight: 1
+      - path: Transform/Pelvis/Spine/NeckNub/LALegCon/LALeg1/LALeg2
+        weight: 1
+      - path: Transform/Pelvis/Spine/NeckNub/LALegCon/LALeg1/LALeg2/LALeg3
+        weight: 1
+      - path: Transform/Pelvis/Spine/NeckNub/LALegCon/LALeg1/LALeg2/LALeg3/LALeg4
+        weight: 1
+      - path: Transform/Pelvis/Spine/NeckNub/LALegCon/LALeg1/LALeg2/LALeg3/LALeg4/LALegNub
+        weight: 1
+      - path: Transform/Pelvis/Spine/NeckNub/RALegCon
+        weight: 1
+      - path: Transform/Pelvis/Spine/NeckNub/RALegCon/RALeg1
+        weight: 1
+      - path: Transform/Pelvis/Spine/NeckNub/RALegCon/RALeg1/RALeg2
+        weight: 1
+      - path: Transform/Pelvis/Spine/NeckNub/RALegCon/RALeg1/RALeg2/RALeg3
+        weight: 1
+      - path: Transform/Pelvis/Spine/NeckNub/RALegCon/RALeg1/RALeg2/RALeg3/RALeg4
+        weight: 1
+      - path: Transform/Pelvis/Spine/NeckNub/RALegCon/RALeg1/RALeg2/RALeg3/RALeg4/RALegNub
+        weight: 1
+      - path: Transform/Pelvis/Spine/RCLeg1
+        weight: 1
+      - path: Transform/Pelvis/Spine/RCLeg1/RCLeg2
+        weight: 1
+      - path: Transform/Pelvis/Spine/RCLeg1/RCLeg2/RCLeg3
+        weight: 1
+      - path: Transform/Pelvis/Spine/RCLeg1/RCLeg2/RCLeg3/RCLeg4
+        weight: 1
+      - path: Transform/Pelvis/Spine/RCLeg1/RCLeg2/RCLeg3/RCLeg4/LCLegNub 1
+        weight: 1
+      - path: Transform/RBLegCon
+        weight: 1
+      - path: Transform/RBLegCon/RBLeg1 1
+        weight: 1
+      - path: Transform/RBLegCon/RBLeg1 1/RBLeg2 1
+        weight: 1
+      - path: Transform/RBLegCon/RBLeg1 1/RBLeg2 1/RBLeg3 1
+        weight: 1
+      - path: Transform/RBLegCon/RBLeg1 1/RBLeg2 1/RBLeg3 1/RBLeg4 1
+        weight: 1
+      - path: unwrap
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: death
+      takeName: Take 001
+      firstFrame: 127
+      lastFrame: 271
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Transform
+        weight: 1
+      - path: Transform/Footsteps
+        weight: 1
+      - path: Transform/LBLegCon
+        weight: 1
+      - path: Transform/LBLegCon/RBLeg1
+        weight: 1
+      - path: Transform/LBLegCon/RBLeg1/RBLeg2
+        weight: 1
+      - path: Transform/LBLegCon/RBLeg1/RBLeg2/RBLeg3
+        weight: 1
+      - path: Transform/LBLegCon/RBLeg1/RBLeg2/RBLeg3/RBLeg4
+        weight: 1
+      - path: Transform/Pelvis
+        weight: 1
+      - path: Transform/Pelvis/Spine
+        weight: 1
+      - path: Transform/Pelvis/Spine/LCLeg1
+        weight: 1
+      - path: Transform/Pelvis/Spine/LCLeg1/LCLeg2
+        weight: 1
+      - path: Transform/Pelvis/Spine/LCLeg1/LCLeg2/LCLeg3
+        weight: 1
+      - path: Transform/Pelvis/Spine/LCLeg1/LCLeg2/LCLeg3/LCLeg4
+        weight: 1
+      - path: Transform/Pelvis/Spine/LCLeg1/LCLeg2/LCLeg3/LCLeg4/LCLegNub
+        weight: 1
+      - path: Transform/Pelvis/Spine/NeckNub
+        weight: 1
+      - path: Transform/Pelvis/Spine/NeckNub/Head
+        weight: 1
+      - path: Transform/Pelvis/Spine/NeckNub/Head/HeadNub
+        weight: 1
+      - path: Transform/Pelvis/Spine/NeckNub/LALegCon
+        weight: 1
+      - path: Transform/Pelvis/Spine/NeckNub/LALegCon/LALeg1
+        weight: 1
+      - path: Transform/Pelvis/Spine/NeckNub/LALegCon/LALeg1/LALeg2
+        weight: 1
+      - path: Transform/Pelvis/Spine/NeckNub/LALegCon/LALeg1/LALeg2/LALeg3
+        weight: 1
+      - path: Transform/Pelvis/Spine/NeckNub/LALegCon/LALeg1/LALeg2/LALeg3/LALeg4
+        weight: 1
+      - path: Transform/Pelvis/Spine/NeckNub/LALegCon/LALeg1/LALeg2/LALeg3/LALeg4/LALegNub
+        weight: 1
+      - path: Transform/Pelvis/Spine/NeckNub/RALegCon
+        weight: 1
+      - path: Transform/Pelvis/Spine/NeckNub/RALegCon/RALeg1
+        weight: 1
+      - path: Transform/Pelvis/Spine/NeckNub/RALegCon/RALeg1/RALeg2
+        weight: 1
+      - path: Transform/Pelvis/Spine/NeckNub/RALegCon/RALeg1/RALeg2/RALeg3
+        weight: 1
+      - path: Transform/Pelvis/Spine/NeckNub/RALegCon/RALeg1/RALeg2/RALeg3/RALeg4
+        weight: 1
+      - path: Transform/Pelvis/Spine/NeckNub/RALegCon/RALeg1/RALeg2/RALeg3/RALeg4/RALegNub
+        weight: 1
+      - path: Transform/Pelvis/Spine/RCLeg1
+        weight: 1
+      - path: Transform/Pelvis/Spine/RCLeg1/RCLeg2
+        weight: 1
+      - path: Transform/Pelvis/Spine/RCLeg1/RCLeg2/RCLeg3
+        weight: 1
+      - path: Transform/Pelvis/Spine/RCLeg1/RCLeg2/RCLeg3/RCLeg4
+        weight: 1
+      - path: Transform/Pelvis/Spine/RCLeg1/RCLeg2/RCLeg3/RCLeg4/LCLegNub 1
+        weight: 1
+      - path: Transform/RBLegCon
+        weight: 1
+      - path: Transform/RBLegCon/RBLeg1 1
+        weight: 1
+      - path: Transform/RBLegCon/RBLeg1 1/RBLeg2 1
+        weight: 1
+      - path: Transform/RBLegCon/RBLeg1 1/RBLeg2 1/RBLeg3 1
+        weight: 1
+      - path: Transform/RBLegCon/RBLeg1 1/RBLeg2 1/RBLeg3 1/RBLeg4 1
+        weight: 1
+      - path: unwrap
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.75
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
