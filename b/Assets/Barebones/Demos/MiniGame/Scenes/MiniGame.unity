@@ -90,7 +90,7 @@ NavMeshSettings:
     manualCellSize: 0
     cellSize: 0.16666667
     accuratePlacement: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: ba4624632487a534f8a86816364c1319, type: 2}
 --- !u!1 &55858483
 GameObject:
   m_ObjectHideFlags: 0
@@ -936,7 +936,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!4 &1393214218
 Transform:
@@ -1051,14 +1051,13 @@ MonoBehaviour:
   m_ScriptCRCCheck: 0
   m_MaxDelay: 0.01
   m_LogLevel: 2
-  m_PlayerPrefab: {fileID: 1000011853879338, guid: ae0a4d88ab925784bb21366c30a54b70,
-    type: 2}
+  m_PlayerPrefab: {fileID: 115582, guid: f9c7a052388222d4eadd5350b7a4d268, type: 2}
   m_AutoCreatePlayer: 1
   m_PlayerSpawnMethod: 0
   m_OfflineScene: 
   m_OnlineScene: 
   m_SpawnPrefabs:
-  - {fileID: 1000011853879338, guid: ae0a4d88ab925784bb21366c30a54b70, type: 2}
+  - {fileID: 0}
   m_CustomConfig: 1
   m_MaxConnections: 100
   m_ConnectionConfig:

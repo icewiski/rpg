@@ -8,7 +8,7 @@ public class MiniNetworkManager : NetworkManager
 {
     public override void OnServerAddPlayer(NetworkConnection conn, short playerControllerId)
     {
-        SpawnPlayer(conn, "Player", "carrot");
+        SpawnPlayer(conn, "Player1", "carro1");
     }
 
     /// <summary>
@@ -19,7 +19,7 @@ public class MiniNetworkManager : NetworkManager
         string weaponSprite, Transform position = null)
     {
         // Create an instance
-        var player = Instantiate(Resources.Load<MiniPlayerController>("Prefabs/MiniPlayer"));
+		var player = Instantiate(Resources.Load<MiniPlayerController>("Prefabs/Orc 1"));
 
         if (position == null)
         {
