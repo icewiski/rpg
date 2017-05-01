@@ -17,9 +17,9 @@ MonoBehaviour:
   image: {fileID: 21300042, guid: 8c831b29ee89a1b48b395beb6ae74f9d, type: 3}
   learnDefault: 1
   levels:
-  - damage: 1
-    castTime: 0.1
-    cooldown: 0
+  - damage: 10
+    castTime: 0
+    cooldown: 1
     castRange: 10
     aoeRadius: 0
     manaCosts: 0

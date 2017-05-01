@@ -219,6 +219,9 @@ public class Player : Entity {
     [Header("Popups")]
     [SerializeField] GameObject goldPopupPrefab;
 
+	[Header("audio fx")]
+	[SerializeField] AudioSource audiofx;
+
     [Header("Respawn")]
     [SerializeField] float deathTime = 10; // enough for animation
     float deathTimeEnd;

@@ -1,0 +1,73 @@
+CHANGE LOG: Dungeon Architect
+=============================
+Version 1.4.0
+=============
+* Procedural Terrain painting support on the City builder.  You city can be built on a terrain with roads, parks and houses painted with custom textures
+* Procedural Foliage support on the City builder.  Add multiple foliage types automatically on various tiles with blending.  This can be used to add grass / flowers on parks, house and road tiles
+* The city builder promotes house tiles to parks if they are not accessible by nearby road tiles
+* Created a Survival Shooter demo variant that runs on a city dungeon created using the city builder
+* Added a Navigation prefab for dungeons created using the city dungeons.  Refer the CityShooter sample demo
+* Updated the sample way point generator code to generate waypoints for city dungeons created using the city builder
+* Refactored the namespaces to better organize the code in each builder.  This changes now requires you to add (using DungeonArchitect.Builders.Grid) in your custom code if you used the grid builder
+* Added an example demonstrating theme override volumes with the city builder.  This enables you to assign different looks on various blocks of your city
+* Fixed all compiler warnings
+* Added tooling support on the theme editor.  You can now create your own tools and they would automatically show up in the theme editor's tool menu (Example: DungeonArchitect/Editor/ThemeEditor/Tools/CommonThemeEditorTools.cs)
+* You can now create default markers in your theme file for various builder types (e.g. grid, city, floorplan etc) from the Tool menu of the theme editor
+* Added a Marker Replacement Volume.  This volume gives you a lot of low level control on the generated dungeon. You can use this to replace walls with doors at selected places.   Refer the user guide for more details
+* Added three new third party demos to create beautiful procedural maps using the City builder (Graveyard, Desert and Cartoon Town).  Refer the quickstart guide for more details
+* Moved the Stronghold Wall emitter code into the main city builder itself and the marker emitter is no longer need and should be removed from the dungeon actor to avoid redundant markers
+
+Version 1.3.2
+=============
+* Fixed a critical stair bug that was introduced in the earlier version
+* Fixed an issue with room connections in some rare cases
+* Added improvements to the city builder. Houses face the streets.   Tile inaccessible to the roads are promoted to Gardens
+* Added 5x5 and 7x7 spatial constraints for for selective control while decorating your themes
+* Added a sample to query the adjacent rooms and corrdiors
+
+Version 1.3.1
+=============
+* Fixed adjacent door issue with the grid builder. Added a DoorProximityStep parameter in the dungeon grid config
+* Added a new demo that shows how to query connected rooms and corridors (DungeonArchitect_Samples\Misc_Examples\Scenes\ConnectedCorridors)
+* Added a new type of builder for creating indoor building floor plans (experimental)
+
+Version 1.3.0
+=============
+* Fixed spatial constraints for 3D
+* Removed overlapping fence / walls
+* Optimized the nav mesh agent to update at customizable timesteps
+* Added a callback on the navigation build complete event
+* Added an experimental floor plan builder
+* Added spatial constraint sample scene
+* Fixed landscape transformer not painting the room ground textures properly
+* Added tooltips to the Grid configuration fields
+
+Version 1.2.0
+=============
+* Spatial constraints allow you to specify meshes selectively based on nearby constraints 
+* Added better 2D support with custom 2D markers and spatial constraint support
+* Added a new builder to create levels like Binding of Isaac (check third party demos for more details)
+* Fixed various bugs
+
+Version 1.1.0
+=============
+* Added a new builder algorithm for generating simple cities.    This also serves as a simple example reference to your own builders 
+* Refactored the directory structure to make the builders more modular
+* Added new demo theme files (Outdoor Cliff, Medieval Stronghold etc).   
+* Updated survival shooter demo to use these new theme files
+* Added various city builder samples
+* Added an example demonstrating the use of dungeon event listeners and dynamic volume spawning 
+* Added various samples that work with third-party assets (Gaia, 3DForge Village Interior / Exterior kit etc).  Created an alternate version of the landscape transformer script to beautify Gaia generated terrains
+
+Version 1.0.2
+=============
+* Added Indoor demos and Volumes demo for the Candy Theme
+* Fixed System.IO class name clash issues with beta preview version of Unity 5.3.x
+* Added notification in the 2D demo game to disable anti-aliasing to get rid of sprite dark edge artifacts
+* Removed dependecies on custom tags from the 2D and 3D game demos to avoid import issues due to missing tags.   The sample games work without tags now
+
+Version 1.0.1
+=============
+Initial Version
+
+

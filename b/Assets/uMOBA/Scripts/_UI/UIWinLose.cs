@@ -16,10 +16,10 @@ public class UIWinLose : MonoBehaviour {
         if (!player) return;
 
         // is there a base with 0 health?
-        if (baseGood.health == 0) {
+		if (player.health == 0) {
             panel.SetActive(true);
             winnerText.text = baseEvil.team.ToString();
-        } else if (baseEvil.health == 0) {
+		} else if (player.health == 0) {
             panel.SetActive(true);
             winnerText.text = baseGood.team.ToString();
         } else panel.SetActive(false); // hide
